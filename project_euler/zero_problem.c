@@ -4,7 +4,7 @@
 int main()
 {
     ll sum = 0;
-    for (int i = 1; i <= limit; i += 2)
+    for (int i = 1; i < limit ; i += 2)
     {
         sum += (ll)i * (ll)i;
     }
